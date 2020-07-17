@@ -13,7 +13,7 @@ app.use('/auth', auth.routes);
 
 installHandler(app);
 
-const port = process.env.API_SERVER_PORT || 3000;
+const port = process.env.PORT || 3000;
 
 // The connectToDb() is an async function, so we enclose it within an async
 // function and execute that function immediately.
