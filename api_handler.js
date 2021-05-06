@@ -56,4 +56,8 @@ function installHandler(app) {
   server.applyMiddleware({ app, path: '/graphql', cors });
 }
 
+function nothingUsefulJustToTestGithubPRExtension() {
+  console.log('test');
+}
+
 module.exports = { installHandler };
