@@ -31,3 +31,4 @@ const count = db.issues.count();
 db.counters.update({ _id: 'issues' }, { $set: { current: count } });
 
 print('New issue count:', count);
+print('yes')
